@@ -1,0 +1,60 @@
+h1 {
+    font-size: larger;
+    color: green;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    color: green;
+}
+.main {
+    margin: 0 auto;
+    width: 80%;
+   background-color: rgb(243, 240, 234);
+}
+.main .one > div {
+    margin: 20px;
+    height: 80px;
+    background-color: green;
+}
+.main .two > div {
+    margin: 0 20px 0 20px;
+    height: 80px;
+    background-color: rgb(51, 119, 108);
+}
+.main .three {
+    display: flex;
+}
+.main .three > div {
+    flex-grow: 1;
+    margin: 20px;
+    height: 80px;
+    background-color: rgb(51, 119, 108);
+}
+.main .four {
+    display: flex;
+}
+.main .four > div {
+    flex-grow: 1;
+    margin: 20px;
+    height: 80px;
+    background-color: rgb(51, 119, 108);
+}
+.main .four .block-6 {
+    flex-grow: 2.08;
+}
+.five {
+    width: 100%;
+}
+.five > div {
+    margin: 25px 0 0 0;
+    height: 80px;
+    background-color: rgb(74, 83, 82);
+    text-align: center;
+}
+.five > div p {
+    text-align: center;
+    padding: 25px;
+    font-size: larger;
+    color: white;
+}
